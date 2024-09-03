@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+     font-size: 30px;
+     margin: 5px;
+}
+
+.firstContainer{
+ font-size: 100px;
+}
+.btn{
+    padding: 8px 14px;
+    border: 2px solid black;
+    background-color: rgb(85, 85, 224);
+    color: antiquewhite;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#roll-history{
+list-style: none;
+margin: 15px;
+width: 90%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border:none;
+outline: none;
+}
+ul li{
+    border: 2px solid black;
+    background-color: rgb(85, 85, 224);
+    width: 90%;
+    text-align: center;
+    padding: 4px;
+    border-radius: 8px;
+    margin: 4px;
+}
+.rollanimation{
+    transform: rotate(145deg) ;
+  }
+  
+  
